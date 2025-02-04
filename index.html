@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Generative Synth </title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.39/Tone.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- LEFT PANE: Modules -->
+  <div class="leftPane">
+    <h1>MidiJourney Generative Synth</h1>
+    <div class="modules" id="modules"></div>
+    
+    <!-- MASTER OUTPUT CONTROLS -->
+    <div class="master">
+      <div class="master-control-group">
+        <h2>Tempo Twist</h2>
+        <div class="control-row">
+          <!-- No numbers shown on the slider -->
+          <input type="range" id="masterTempo" min="40" max="400" step="1" value="120" />
+        </div>
+      </div>
+      <div class="master-control-group">
+        <h2>Volume</h2>
+        <div class="control-row">
+          <input type="range" id="masterVolume" min="-60" max="0" step="1" value="0" />
+        </div>
+      </div>
+      <div class="master-control-group">
+        <h2>Global Effects</h2>
+        <div class="control-row">
+          <label>Delay Time</label>
+          <input type="range" id="globalDelay" min="0.1" max="1" step="0.01" value="0.25" />
+        </div>
+        <div class="control-row">
+          <label>Reverb Decay</label>
+          <input type="range" id="globalReverb" min="0.1" max="5" step="0.1" value="0.8" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RIGHT PANE: Console messages -->
+  <div class="consolePane" id="consolePane">
+    <h2>Console Output</h2>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
