@@ -1,22 +1,21 @@
 # midijourney_generative_synth
 
-![Screenshot](https://interzone.art.br/midijourney_generative_synth/ss_mgs.webp)
+![Screenshot](https://www.interzone.art.br/midijourney_gen_synth/ss_mgs.webp)
 
-## 🎶 AI-Powered Generative Modular Synth
+## 🎶 AI-Powered Generative Synth
 
-**midijourney_generative_synth** is an AI-driven generative modular synthesizer that transforms text prompts into evolving MIDI compositions. It integrates a modular synth engine with customizable sound design and AI-generated sequences, providing an ever-changing sonic experience.
+**midijourney_generative_synth** is an AI-driven generative synthesizer that transforms text prompts into evolving MIDI compositions. It integrates a powerful synth engine with customizable sound design and AI-generated sequences, providing an ever-changing sonic experience.
 
-🔗 **Live Demo:** [interzone.art.br/midijourney_gen_synth](https://interzone.art.br/midijourney_gen_synth/)
+🔗 **Live Demo:** [interzone.art.br/midijourney_gen_synth](https://www.interzone.art.br/midijourney_gen_synth/)
 
 ## ✨ Features
 - **AI-Generated Sequences** – Uses [Pollinations.ai](https://pollinations.ai/) to convert text prompts into MIDI patterns.
-- **Modular Synth Architecture** – Fully customizable synth modules (Beat, Bass, Lead, Pad, Glitch).
 - **Dynamic Sound Control** – Real-time manipulation of volume, filter, distortion, envelope, and more.
 - **Global Effects** – Delay and reverb applied to the master output.
 - **Looping & Randomization** – Infinite generative loops with randomized parameters for variation.
-- **Independent Channel Control** – Start, stop, and tweak each module separately.
-- **Real-Time Visualization** – Frequency spectrum display for each module.
-- **Responsive UI** – Scrollable module container ensures usability across screen sizes.
+- **Independent Channel Control** – Start, stop, and tweak each synth separately.
+- **Real-Time Visualization** – Frequency spectrum display for each synth.
+- **Responsive UI** – Scrollable container ensures usability across screen sizes.
 
 ## 🚀 Getting Started
 
@@ -36,7 +35,7 @@ Simply open `index.html` in a web browser. No server setup is required.
 4. Control **global effects** (delay & reverb) for added depth.
 5. Use **Stop** to halt individual channels.
 
-## 🎛️ Modular Synth Structure
+## 🎛️ Synth Structure
 - **Beat** – AI-generated percussive rhythms.
 - **Bass** – Fat, deep low-end synthesis.
 - **Lead** – High-tech psychedelic lead synth.
@@ -46,7 +45,7 @@ Simply open `index.html` in a web browser. No server setup is required.
 ## 🖥️ Technologies Used
 - [Tone.js](https://tonejs.github.io/) – Web Audio API-based synthesizer.
 - [Pollinations.ai](https://pollinations.ai/) – AI-based MIDI pattern generation.
-- Vanilla JavaScript, HTML, and CSS for modular UI.
+- Vanilla JavaScript, HTML, and CSS for UI.
 
 ## 📝 License
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
