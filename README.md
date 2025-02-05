@@ -1,12 +1,12 @@
 # midijourney_generative_synth
 
-![Screenshot](https://interzone.art.br/midijourney_generative_synth/ss_mgs.webp)
+![Screenshot](https://www.interzone.art.br/midijourney_gen_synth/ss_mgs.webp)
 
 ## 🎶 AI-Powered Generative Modular Synth
 
 **midijourney_generative_synth** is an AI-driven generative modular synthesizer that transforms text prompts into evolving MIDI compositions. It integrates a modular synth engine with customizable sound design and AI-generated sequences, providing an ever-changing sonic experience.
 
-🔗 **Live Demo:** [www.interzone.art.br/midijourney_gen_synth](https://interzone.art.br/midijourney_gen_synth/)
+🔗 **Live Demo:** [interzone.art.br/midijourney_gen_synth](https://interzone.art.br/midijourney_gen_synth/)
 
 ## ✨ Features
 - **AI-Generated Sequences** – Uses [Pollinations.ai](https://pollinations.ai/) to convert text prompts into MIDI patterns.
