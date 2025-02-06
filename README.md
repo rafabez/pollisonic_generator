@@ -1,10 +1,10 @@
-# midijourney_generative_synth
+# PolliSonic Generator
 
 ![Screenshot](https://www.interzone.art.br/midijourney_gen_synth/ss_mgs.webp)
 
 ## 🎶 AI-Powered Generative Synth
 
-**midijourney_generative_synth** is an AI-driven generative synthesizer that transforms text prompts into evolving MIDI compositions. It integrates a powerful synth engine with customizable sound design and AI-generated sequences, providing an ever-changing sonic experience.
+**PolliSonic Generator** is an AI-driven generative synthesizer that transforms text prompts into evolving MIDI compositions. It integrates a powerful synth engine with customizable sound design and AI-generated sequences, providing an ever-changing sonic experience.
 
 🔗 **Live Demo:** [interzone.art.br/midijourney_gen_synth](https://www.interzone.art.br/midijourney_gen_synth/)
 
@@ -52,4 +52,3 @@ This project is licensed under the MIT License – see the [LICENSE](LICENSE) fi
 
 ---
 💡 **Contributions Welcome!** If you have suggestions, improvements, or ideas, feel free to open an issue or a pull request on GitHub.
-
