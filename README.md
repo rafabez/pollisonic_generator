@@ -21,8 +21,8 @@
 
 ### 1️⃣ Clone the Repository
 ```sh
- git clone https://github.com/rafabez/midijourney_generative_synth.git
- cd midijourney_generative_synth
+ git clone https://github.com/rafabez/pollisonic_generator.git
+ cd pollisonic_generator
 ```
 
 ### 2️⃣ Open Locally
