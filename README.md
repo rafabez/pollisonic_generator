@@ -4,9 +4,9 @@
 
 ## 🎶 AI-Powered Generative Synth
 
-**PolliSonic Generator** is an AI-driven generative synthesizer that transforms text prompts into evolving MIDI compositions. It integrates a powerful synth engine with customizable sound design and AI-generated sequences, providing an ever-changing sonic experience.
+**PolliSonic Generator** generates evolving MIDI-based melodies from text prompts using AI. It seamlessly integrates with [Pollinations.ai](https://pollinations.ai) to create unique musical sequences and provides dynamic controls for sound design and effects.
 
-🔗 **Live Demo:** [interzone.art.br/midijourney_gen_synth](https://www.interzone.art.br/midijourney_gen_synth/)
+🔗 **Live Demo:** [interzone.art.br/pollisonic_generator](https://interzone.art.br/pollisonic_generator/)
 
 ## ✨ Features
 - **AI-Generated Sequences** – Uses [Pollinations.ai](https://pollinations.ai/) to convert text prompts into MIDI patterns.
