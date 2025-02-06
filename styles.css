@@ -27,14 +27,35 @@ h1 {
   box-sizing: border-box;
   overflow: hidden;
 }
+
+.modules-container {
+  flex: 1;
+  max-height: 100%;
+  overflow-y: auto;
+  width: 90%;
+  margin-bottom: 1rem;
+  border: 1px solid #0f0;
+  border-radius: 4px;
+}
+
+/* Scrollbar Styling */
+.modules-container::-webkit-scrollbar {
+  width: 8px;
+}
+.modules-container::-webkit-scrollbar-thumb {
+  background: #0f0;
+  border-radius: 4px;
+}
+.modules-container::-webkit-scrollbar-thumb:hover {
+  background: #00ff00;
+}
+
 .modules {
   display: flex;
   flex-wrap: nowrap;
   gap: 1rem;
   justify-content: center;
-  width: 90%;
-  margin-bottom: 1rem;
-  overflow: hidden;
+  width: 100%;
 }
 
 /* Master Panel */
@@ -227,6 +248,13 @@ select {
   color: #0f0;
   padding: 0.2rem;
   cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .modules-container {
+    max-height: 200px; /* Enforce smaller height for scrolling */
+  }
 }
 
 /* Bottom container inside module: randomize button and frequency canvas aligned at bottom */
